@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-urlpatterns = [
+urlpatterns = [ #수정조금
     path('admin/', admin.site.urls),
     path('', include('board.urls')),
 ]
